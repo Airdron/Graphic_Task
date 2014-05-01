@@ -19,9 +19,9 @@ class MyFrame extends JFrame {
 class PaintPanel extends JPanel {
     public void paintComponent(Graphics g) {
         super.paintComponent (g);
-        g.drawString("Малюємо прямокутник:", 10, 20);
+        g.drawString("Draw Rect:", 10, 20);
         g.drawRect(10, 40, 300, 100);
-        g.drawString("Малюємо коло:", 10, 160);
+        g.drawString("Draw Oval:", 10, 160);
         g.drawOval(10, 180, 150, 150); 
     }
 }
